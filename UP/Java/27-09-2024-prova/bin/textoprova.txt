@@ -1,0 +1,37 @@
+UNIVERSIDADE POSITIVO
+
+Avaliação Prática: Factory Method
+
+Cenário Prático: Sistema de Relatórios de Desempenho
+Você está desenvolvendo um sistema para gerar relatórios de desempenho de uma empresa. 
+O sistema deve ser capaz de gerar relatórios em diferentes formatos, como PDF, CSV e Excel.
+Cada formato de relatório tem um comportamento e estrutura específicos, 
+mas a interface básica para gerar um relatório deve ser a mesma.
+
+
+Questão 1: Implemente o código utilizando factory method para atender ao requisito acima
+- Interface (0,25 pt)
+
+- Classes concretas (0,5 pt)
+
+- Super classe das Fábricas (0,5 pt)
+
+- Fábricas concreta (0,5 pt)
+
+- Classe de serviços (0,5 pt)
+
+Questão 2: Extensibilidade (0,25 pt)
+Explique como o padrão Factory Method facilita a adição de novos formatos de relatório no futuro, 
+sem precisar modificar o código existente, apenas criando novas classes concretas de relatórios.
+
+
+Para adicionar um novo formato de relatório, basta criar uma nova classe concreta 
+que implementa iRelatorio e uma fábrica correspondente que estende RelatorioFactory. 
+Dessa forma, o serviço pode gerar novos relatórios apenas instanciando a nova fábrica, 
+sem precisar alterar o código já implementado.
+
+
+
+
+
+
