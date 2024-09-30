@@ -8,7 +8,8 @@ Este repositório contém uma coleção de projetos desenvolvidos em C, abordand
 Este programa foi desenvolvido como parte da atividade 1 de algoritmos e tem como objetivo gerenciar o lançamento de notas de estudantes dos cursos de BSI (Bacharelado em Sistemas de Informação) e ADS (Análise e Desenvolvimento de Sistemas). O programa permite ao usuário inserir uma quantidade variável de notas, juntamente com a informação sobre o curso do estudante, e fornece estatísticas separadas para cada curso.
 
 ### Funcionalidades
-- **Boas-vindas e instruções**: O programa inicia com uma mensagem de boas-vindas, orientando o usuário sobre como inserir as notas.
+- **Boas-vindas e instruções**: 
+O programa inicia com uma mensagem de boas-vindas, orientando o usuário sobre como inserir as notas.
   
 - **Inserção de notas**: 
   O usuário pode inserir as notas de estudantes de ambos os cursos (BSI e ADS) em qualquer ordem, especificando o curso correspondente a cada nota. O programa verifica se a nota inserida não é superior a 10.
