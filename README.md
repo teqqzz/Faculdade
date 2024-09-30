@@ -4,8 +4,6 @@ Este repositório contém projetos desenvolvidos durante os cursos que realizei.
 ## Estrutura do Repositório
 **UP** (sigla da Universidade Positivo)
   - **C** (Projetos desenvolvidos em C)
-    - **Atividades** (Códigos das atividades)
-    - **Provas** (Códigos das atividades)
   - **Java** (Projetos desenvolvidos em Java)
   - **Shell** (Projetos desenvolvidos em Shell)
 
